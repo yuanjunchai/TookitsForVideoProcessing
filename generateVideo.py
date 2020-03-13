@@ -35,7 +35,7 @@ def generateVideo(rootdir, output, type, scale, fps):
     paths.sort()
     if paths.__len__() is not 0:
         for path in paths:
-            print path
+            print(path)
     print (paths.__len__().__str__() + " frames were found.")
 
     # 读取第一张影像，获取其大小，然后计算输出视频的大小
